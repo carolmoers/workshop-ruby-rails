@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150801181850) do
+ActiveRecord::Schema.define(version: 20150801185932) do
 
   create_table "debts", force: :cascade do |t|
     t.float    "ammount"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150801181850) do
     t.integer  "friend_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean  "paid"
   end
 
   add_index "debts", ["friend_id"], name: "index_debts_on_friend_id"
