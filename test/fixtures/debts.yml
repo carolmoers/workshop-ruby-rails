@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ammount: 1.5
+  interest: 1.5
+  friend_id: 
+
+two:
+  ammount: 1.5
+  interest: 1.5
+  friend_id: 
